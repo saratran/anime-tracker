@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="fFSACznwSK8ppTdp1rbL" name="Page-1">
+        <mxGraphModel dx="1169" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="PRESENTATIONAL LAYER&lt;br&gt;&lt;br&gt;React" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="80" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="BUSINESS LAYER&lt;br&gt;&lt;br&gt;Express (REST API) + 3rd party API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="180" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="PERSISTENCE LAYER&lt;br&gt;&lt;br&gt;ORM: TypeORM&lt;br&gt;&lt;a href=&quot;https://typeorm.io/#/&quot;&gt;https://typeorm.io/#/&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="280" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="DATABASE&lt;br&gt;&lt;br&gt;PostgreSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="378.5" width="270" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="630" y="260" as="sourcePoint"/>
+                        <mxPoint x="680" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="270" as="sourcePoint"/>
+                        <mxPoint x="340" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="365" y="380" as="sourcePoint"/>
+                        <mxPoint x="390" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
