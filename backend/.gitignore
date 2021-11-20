@@ -1,0 +1,12 @@
+.dev*.env
+.test.env
+node_modules
+package-lock.json
+dist
+coverage
+.vscode
+.prod.env
+.vscode
+coverage
+.test.env
+migrations
